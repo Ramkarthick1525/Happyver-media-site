@@ -8,11 +8,22 @@ const PricingSection = ({ category }) => {
           {category.category}
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          {category.plans.map((plan, i) => (
-            <PricingCard key={i} plan={plan} />
-          ))}
-        </div>
+        <div
+  className={` grid gap-8 justify-center md:mx-52
+    ${
+      category.plans.length === 1
+        ? "grid-cols-1 md:ml-96"
+        : category.plans.length === 2
+        ? "grid-cols-1 md:grid-cols-2"
+        : "grid-cols-1 md:grid-cols-3"
+    }
+  `}
+>
+  {category.plans.map((plan, i) => (
+    <PricingCard key={i} plan={plan} />
+  ))}
+</div>
+
       </div>
     </section>
   );

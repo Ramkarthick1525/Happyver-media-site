@@ -1,156 +1,83 @@
 export const pricingData = [
   {
-    category: "Video Production & Editing",
+    category: "Launchpad Plan (Social Media Management)",
     plans: [
       {
-        title: "Starter",
-        popular: false,
-        features: [
-          "1–2 minute promotional video",
-          "Basic editing & color correction",
-          "1 round of revisions",
-          "Social media optimized versions",
-          "Delivery within 2 weeks",
-        ],
-      },
-      {
-        title: "Professional",
+        title: "Plan A",
+        price: "₹14,999",
         popular: true,
+        durationNote:
+          "Special offer valid for first 3 months. From 4th month onwards: ₹20,000",
         features: [
-          "3–5 minute brand film",
-          "Professional editing & color grading",
-          "2 rounds of revisions",
-          "Multiple format delivery",
-          "Motion graphics included",
-          "Delivery within 3–4 weeks",
+          "12 reel video shoots",
+          "Editing of all reels",
+          "Posting on social media platforms",
+          "Complete social media handling",
+          "4 additional posts FREE",
         ],
       },
+      
       {
-        title: "Enterprise",
+        title: "Plan B",
+        price: "₹19,000",
         popular: false,
+        durationNote:
+          "Special offer valid for first 3 months. From 4th month onwards: ₹24,000",
         features: [
-          "Custom length video production",
-          "Cinematic quality post-production",
-          "Unlimited revisions",
-          "Full campaign package",
-          "Dedicated project manager",
-          "Priority delivery",
+          "16 reel video shoots",
+          "Editing of all reels",
+          "Posting on social media platforms",
+          "Complete social media handling",
+          "4 additional posts FREE",
         ],
       },
     ],
   },
 
   {
-    category: "Social Media Marketing",
+    category: "Shakthi Plan (Editing-Only Bundle)",
     plans: [
       {
-        title: "Basic",
+        title: "Reels Edit – 10 Videos",
+        price: "₹4,999",
         popular: false,
+        note:
+          "Special effects or advanced edits may increase the price based on work",
         features: [
-          "8 reels per month",
-          "Content planning & strategy",
-          "Basic graphics & captions",
-          "Monthly performance report",
-        ],
-      },
-      {
-        title: "Growth",
-        popular: true,
-        features: [
-          "16 reels per month",
-          "Advanced content strategy",
-          "Professional graphics & editing",
-          "Hashtag optimization",
-          "Bi-weekly reports",
-          "Community management",
-        ],
-      },
-      {
-        title: "Premium",
-        popular: false,
-        features: [
-          "Unlimited content creation",
-          "Full social media management",
-          "Multi-platform posting",
-          "Influencer partnerships",
-          "Weekly strategy calls",
-          "Advanced analytics",
+          "Video editing as per client requirement",
+          "Proper cuts",
+          "Professional text & transitions",
         ],
       },
     ],
   },
 
   {
-    category: "Digital Transformation",
+    category: "Vision Plan (Video Shoot & Editing)",
     plans: [
       {
-        title: "Starter",
-        popular: false,
-        features: [
-          "Basic online presence setup",
-          "Social media accounts",
-          "Google Business Profile",
-          "Basic content package",
-        ],
-      },
-      {
-        title: "Complete",
+        title: "12 Videos Package",
+        price: "₹10,499",
         popular: true,
         features: [
-          "Full digital presence setup",
-          "Website integration support",
-          "E-commerce assistance",
-          "SEO optimization",
-          "3 months support",
-        ],
-      },
-      {
-        title: "Enterprise",
-        popular: false,
-        features: [
-          "Complete digital transformation",
-          "Custom website development",
-          "Full e-commerce solution",
-          "Ongoing marketing",
-          "6 months support",
+          "Professional video shooting",
+          "Clean & quality video editing",
         ],
       },
     ],
   },
 
   {
-    category: "Creative Branding Support",
+    category: "Max+ Plan (Long-Form Videos + Reels – Monthly)",
     plans: [
       {
-        title: "Concept",
+        title: "4 Long-Form Videos + 4 Reels",
+        price: "₹8,999",
         popular: false,
         features: [
-          "Brand storytelling concept",
-          "Marketing scripts",
-          "Visual style guide",
-          "1 revision round",
-        ],
-      },
-      {
-        title: "Full Package",
-        popular: true,
-        features: [
-          "Complete brand identity",
-          "Visual storytelling campaign",
-          "Marketing concepts & scripts",
-          "Brand guidelines",
-          "Implementation support",
-        ],
-      },
-      {
-        title: "Ongoing",
-        popular: false,
-        features: [
-          "Monthly creative concepts",
-          "Ongoing scripts",
-          "Brand consistency",
-          "Unlimited revisions",
-          "Priority support",
+          "Video shooting",
+          "Video editing",
+          "Posting on social media platforms",
         ],
       },
     ],
