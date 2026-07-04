@@ -27,7 +27,7 @@ const Navbar = () => {
           <ul className="hidden md:flex items-center gap-6 font-semibold text-textLight">
             <li><Link to="/" className="hover:text-yellowPrimary">Home</Link></li>
             <li><Link to="/services" className="hover:text-yellowPrimary">Services</Link></li>
-            <li><Link to="/portfolio" className="hover:text-yellowPrimary">Portfolio</Link></li>
+        
             <li><Link to="/pricing" className="hover:text-yellowPrimary">Pricing</Link></li>
             <li>
               <Link
@@ -44,7 +44,7 @@ const Navbar = () => {
           <ul className="md:hidden flex flex-col gap-4 py-4 text-center text-textLight">
             <Link to="/">Home</Link>
             <Link to="/services">Services</Link>
-            <Link to="/portfolio">Portfolio</Link>
+           
             <Link to="/pricing">Pricing</Link>
             <Link to="/contact" className="text-yellowPrimary font-bold">
               Contact
