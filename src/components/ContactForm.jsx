@@ -15,61 +15,73 @@ const ContactForm = () => {
   return (
     <section className="bg-blackDark py-20">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="flex justify-center">
           
           {/* Contact Info */}
-          <div>
-            <h2 className="text-3xl font-extrabold text-textLight mb-4">
-              Contact Information
-            </h2>
+     <div className="max-w-2xl w-full text-center">
+  <h2 className="text-3xl font-extrabold text-textLight mb-4">
+    Contact Information
+  </h2>
 
-            <p className="text-textGray mb-8">
-              We’re here to help bring your vision to life. Reach out to us through
-              any of the following channels.
-            </p>
+  <p className="text-textGray mb-8">
+    We’re here to help bring your vision to life. Reach out to us through
+    any of the following channels.
+  </p>
 
-            <div className="space-y-6 mb-10">
-              <div className="flex gap-4">
-                <span className="text-3xl">📧</span>
-                <div>
-                  <h4 className="font-bold text-textLight">Email</h4>
-                  <a
-                    href="mailto:happyvermedia@gmail.com"
-                    className="text-yellowPrimary hover:underline"
-                  >
-                    happyvermedia@gmail.com
-                  </a>
-                </div>
-              </div>
+  <div className="space-y-6 mb-10 inline-block text-left">
+    <div className="flex gap-4">
+      <span className="text-3xl">📧</span>
+      <div>
+        <h4 className="font-bold text-textLight">Email</h4>
+        <a
+          href="mailto:happyvermedia@gmail.com"
+          className="text-yellowPrimary hover:underline"
+        >
+          happyvermedia@gmail.com
+        </a>
+      </div>
+    </div>
 
-              <div className="flex gap-4">
-                <span className="text-3xl">📱</span>
-                <div>
-                  <h4 className="font-bold text-textLight">Call & WhatsApp</h4>
-                  <a
-                    href="https://wa.me/919597224360"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-yellowPrimary hover:underline"
-                  >
-                    95972 24360
-                  </a>
-                </div>
-              </div>
-            </div>
+    <div className="flex gap-4">
+      <span className="text-3xl">📱</span>
+      <div>
+        <h4 className="font-bold text-textLight">Call & WhatsApp</h4>
 
-            <div className="bg-blackMedium border border-grayBorder p-6 rounded-lg">
-              <h3 className="text-lg font-bold text-textLight mb-2">
-                Response Time
-              </h3>
-              <p className="text-textGray">
-                We typically respond within 24–48 hours during business days.
-              </p>
-            </div>
-          </div>
+        <a
+          href="https://wa.me/916381783600"
+          target="_blank"
+          rel="noreferrer"
+          className="text-yellowPrimary hover:underline"
+        >
+          63817 83600
+        </a>
+
+        <br />
+
+        <a
+          href="https://wa.me/919361729937"
+          target="_blank"
+          rel="noreferrer"
+          className="text-yellowPrimary hover:underline"
+        >
+          93617 29937
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div className="bg-blackMedium border border-grayBorder p-6 rounded-lg">
+    <h3 className="text-lg font-bold text-textLight mb-2">
+      Response Time
+    </h3>
+    <p className="text-textGray">
+      We typically respond within 24–48 hours during business days.
+    </p>
+  </div>
+</div>
 
           {/* Contact Form */}
-          <div className="bg-blackMedium border border-grayBorder rounded-xl p-8">
+          {/* <div className="bg-blackMedium border border-grayBorder rounded-xl p-8">
             <h2 className="text-3xl font-extrabold text-textLight mb-6">
               Send Us a Message
             </h2>
@@ -134,7 +146,7 @@ const ContactForm = () => {
                 </div>
               )}
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
