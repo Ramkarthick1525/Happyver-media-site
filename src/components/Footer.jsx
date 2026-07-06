@@ -31,11 +31,7 @@ const Footer = () => {
                   Services
                 </Link>
               </li>
-              <li>
-                <Link to="/portfolio" className="hover:text-yellowPrimary transition">
-                  Portfolio
-                </Link>
-              </li>
+             
               <li>
                 <Link to="/pricing" className="hover:text-yellowPrimary transition">
                   Pricing
@@ -62,16 +58,25 @@ const Footer = () => {
               </a>
             </p>
             <p className="text-textGray">
-              Call / WhatsApp:{" "}
-              <a
-                href="https://wa.me/919597224360"
-                target="_blank"
-                rel="noreferrer"
-                className="text-yellowPrimary hover:underline"
-              >
-                95972 24360
-              </a>
-            </p>
+  Call / WhatsApp:{" "}
+  <a
+    href="https://wa.me/916381783600"
+    target="_blank"
+    rel="noreferrer"
+    className="text-yellowPrimary hover:underline"
+  >
+    63817 83600
+  </a>
+  {", "}
+  <a
+    href="https://wa.me/919361729937"
+    target="_blank"
+    rel="noreferrer"
+    className="ml-3 text-yellowPrimary hover:underline"
+  >
+    93617 29937
+  </a>
+</p>
           </div>
         </div>
 
